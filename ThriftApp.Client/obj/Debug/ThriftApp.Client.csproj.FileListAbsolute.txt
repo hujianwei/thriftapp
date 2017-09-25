@@ -7,3 +7,12 @@ D:\test\ThriftApp\ThriftApp.Client\bin\Debug\ThriftApp.Lib.pdb
 D:\test\ThriftApp\ThriftApp.Client\obj\Debug\ThriftApp.Client.csprojResolveAssemblyReference.cache
 D:\test\ThriftApp\ThriftApp.Client\obj\Debug\ThriftApp.Client.exe
 D:\test\ThriftApp\ThriftApp.Client\obj\Debug\ThriftApp.Client.pdb
+D:\gitcode\ThriftApp\ThriftApp.Client\bin\Debug\ThriftApp.Client.exe.config
+D:\gitcode\ThriftApp\ThriftApp.Client\bin\Debug\ThriftApp.Client.exe
+D:\gitcode\ThriftApp\ThriftApp.Client\bin\Debug\ThriftApp.Client.pdb
+D:\gitcode\ThriftApp\ThriftApp.Client\bin\Debug\Thrift.dll
+D:\gitcode\ThriftApp\ThriftApp.Client\bin\Debug\ThriftApp.Lib.dll
+D:\gitcode\ThriftApp\ThriftApp.Client\bin\Debug\ThriftApp.Lib.pdb
+D:\gitcode\ThriftApp\ThriftApp.Client\obj\Debug\ThriftApp.Client.csprojResolveAssemblyReference.cache
+D:\gitcode\ThriftApp\ThriftApp.Client\obj\Debug\ThriftApp.Client.exe
+D:\gitcode\ThriftApp\ThriftApp.Client\obj\Debug\ThriftApp.Client.pdb

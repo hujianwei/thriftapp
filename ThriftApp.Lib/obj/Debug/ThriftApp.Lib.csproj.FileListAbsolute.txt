@@ -3,3 +3,8 @@ D:\test\ThriftApp\ThriftApp.Lib\bin\Debug\ThriftApp.Lib.pdb
 D:\test\ThriftApp\ThriftApp.Lib\bin\Debug\Thrift.dll
 D:\test\ThriftApp\ThriftApp.Lib\obj\Debug\ThriftApp.Lib.dll
 D:\test\ThriftApp\ThriftApp.Lib\obj\Debug\ThriftApp.Lib.pdb
+D:\gitcode\ThriftApp\ThriftApp.Lib\bin\Debug\ThriftApp.Lib.dll
+D:\gitcode\ThriftApp\ThriftApp.Lib\bin\Debug\ThriftApp.Lib.pdb
+D:\gitcode\ThriftApp\ThriftApp.Lib\bin\Debug\Thrift.dll
+D:\gitcode\ThriftApp\ThriftApp.Lib\obj\Debug\ThriftApp.Lib.dll
+D:\gitcode\ThriftApp\ThriftApp.Lib\obj\Debug\ThriftApp.Lib.pdb

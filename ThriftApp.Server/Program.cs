@@ -16,14 +16,14 @@ namespace ThriftApp.Server
         static void Main(string[] args)
         {
             TBinaryProtocol.Factory factory = new TBinaryProtocol.Factory();
-            TServerSocket serverTransport = new TServerSocket(7911, 0, false);
+            TServerSocket serverTransport = new TServerSocket(7912, 0, false);
             IAgent.Processor processor = new IAgent.Processor(new AgentImpl());
             //TServer server1 = new TSimpleServer(processor, serverTransport);
             TServer server = new TThreadPoolServer(processor, serverTransport, new TTransportFactory(), factory);
             
 
 
-            Console.WriteLine("Starting server on port 7911 ...");
+            Console.WriteLine("Starting server on port 7912 ...");
             server.Serve();
         }
 
@@ -34,24 +34,36 @@ namespace ThriftApp.Server
     {
         public AgentImpl()
         {
-            AppAgent agent = new AppAgent();
-            agent.AppCode = "1234";
-            agent.Name = "测试";
-            list.Add(agent);
-            agent = new AppAgent();
-            agent.AppCode = "1235";
-            agent.Name = "1111测试";
-            list.Add(agent);
+
         }
-        private List<AppAgent> list = new List<AppAgent>();
-        public List<AppAgent> getAll()
+        static IList<AppAgent> result = new List<AppAgent>();
+        static readonly object objAsync = new object();
+        public  List<AppAgent> getAll()
         {
-            return list;
+             List<AppAgent> list = new List<AppAgent>();
+            if(result == null|| result.Count>1000)
+                list = new List<AppAgent>();
+            else
+            {
+                for(int i=0;i<1000;i++)
+                {
+                    AppAgent agent = new AppAgent();
+                    agent.AppCode = DateTime.Now.Ticks.ToString()+"_"+i.ToString();
+                    agent.Name = agent.AppCode.GetHashCode().ToString();                    
+                    list.Add(agent);
+                }
+            }
+            lock(objAsync)
+            {
+                result.Clear();
+                result = result.Concat(list).ToList();
+            }
+            return  list;
         }
 
         public AppAgent getByCode(string code)
         {
-            return list.Where(c => c.AppCode == code).FirstOrDefault();
+            return result.Where(c => c.AppCode == code).FirstOrDefault();
 
         }
 
