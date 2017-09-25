@@ -1,0 +1,9 @@
+D:\test\ThriftApp\ThriftApp.Client\bin\Debug\ThriftApp.Client.exe.config
+D:\test\ThriftApp\ThriftApp.Client\bin\Debug\ThriftApp.Client.exe
+D:\test\ThriftApp\ThriftApp.Client\bin\Debug\ThriftApp.Client.pdb
+D:\test\ThriftApp\ThriftApp.Client\bin\Debug\ThriftApp.Lib.dll
+D:\test\ThriftApp\ThriftApp.Client\bin\Debug\Thrift.dll
+D:\test\ThriftApp\ThriftApp.Client\bin\Debug\ThriftApp.Lib.pdb
+D:\test\ThriftApp\ThriftApp.Client\obj\Debug\ThriftApp.Client.csprojResolveAssemblyReference.cache
+D:\test\ThriftApp\ThriftApp.Client\obj\Debug\ThriftApp.Client.exe
+D:\test\ThriftApp\ThriftApp.Client\obj\Debug\ThriftApp.Client.pdb
